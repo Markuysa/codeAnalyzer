@@ -1,17 +1,18 @@
 package main
 
 import (
-	dynmic "code_analyzer/dynamic"
-	"code_analyzer/static"
 	"flag"
 	"fmt"
 	"log"
+
+	dynmic "github.com/Markuysa/codeAnalyzer/dynamic"
+	"github.com/Markuysa/codeAnalyzer/static"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/multichecker"
 )
 
-func main() {
+func Execute() {
 	flag.Parse()
 	log.SetFlags(0)
 

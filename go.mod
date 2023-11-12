@@ -1,12 +1,10 @@
-module code_analyzer
+module github.com/Markuysa/codeAnalyzer
 
-go 1.21rc3
+go 1.20
 
 require golang.org/x/tools v0.15.0
 
 require (
-	github.com/yuin/goldmark v1.6.0 // indirect
 	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/net v0.18.0 // indirect
 	golang.org/x/sys v0.14.0 // indirect
 )
